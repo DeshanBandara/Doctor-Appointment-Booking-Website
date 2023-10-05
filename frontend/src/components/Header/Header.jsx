@@ -56,13 +56,21 @@ const Header = () => {
 
             <div>
               <Link to='/'>
-                <figure className='w-[35px] h-[35px] rounded-full'>
+                <figure className='w-[35px] h-[35px] rounded-full cursor-pointer'>
                   <img src={userImg} className='w-full rounded-full' alt="" />
                 </figure>
               </Link>
             </div>
 
-            <Link to='/'></Link>
+          {/*=== nalogin button ===*/}
+            <Link to='/login'>
+            <button className='bg-blue-500 py-2 px-6 text-white font-[600] h-[44px] flex items-center
+                justify-center rounded-[50px]'>Login</button>
+            </Link>
+
+            <span className='md:hidden'>
+              <BiMenu className='w-6 h-6 cursor-pointer'/>
+            </span>
         </div>
 
       </div>
