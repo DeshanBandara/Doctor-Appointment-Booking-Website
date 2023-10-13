@@ -14,7 +14,7 @@
     }
 
     .btn {
-        @apply bg-primaryColor py-[15px] px-[35px] rounded-[px] text-white font-[600] mt-[38]
+        @apply bg-blue-500 py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px]
     }
 
     .heading {
