@@ -18,7 +18,7 @@
     }
 
     .heading {
-        @apply text-[44px] leading-[54px] font-[700] text-headingColor
+        @apply text-[44px] leading-[54px] font-[700] text-black
     }
 
     .text_para {
