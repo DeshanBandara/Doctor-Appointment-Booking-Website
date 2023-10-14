@@ -169,7 +169,22 @@ const Home = () => {
 
     <About />
 
-    {/* ============== About section end ============== */}
+    {/* ============== Service section ============== */}
+      <br />
+      <br />
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className='heading text-center mb-4'> Our medical Services </h2>
+            <p className='text__para text-center mb-4'>
+              Word-class care for everyone. Our health system offers unmatched, expert health care.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    {/* ============== Service section end ============== */}
+
   </>
 }
 
