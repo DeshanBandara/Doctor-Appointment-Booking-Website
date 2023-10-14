@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 import About from '../components/About/About'
 import ServiceList from '../components/Services/ServiceList'
+import DoctorList from '../components/Doctors/DoctorList'
  
 const Home = () => {
   return <>
@@ -250,6 +251,18 @@ const Home = () => {
     {/* ============== Feature section end ============== */}
 
     {/* ============== Our great doctors ============== */}
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className='heading text-center m-5'> Our Greate Doctors </h2>
+            <p className='text__para text-center mb-4'>
+              Word-class care for everyone. Our health system offers unmatched, expert health care.
+            </p>
+          </div>
+
+          <DoctorList />
+        </div>
+      </section>
     {/* ============== Our great doctors end ============== */}
 
   </>
