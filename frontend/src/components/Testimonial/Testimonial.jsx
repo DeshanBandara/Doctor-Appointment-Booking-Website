@@ -31,7 +31,7 @@ const Testimonial = () => {
                             <img src={patientAvatar} alt="" />
                             <div>
                                 <h4 className='text-[18px] leading-[30px] font-semibold text-black'>
-                                    Muhibar Rahman
+                                    Deshan Bandara
                                 </h4>
                                 <div className="flex items-center gap-[2px]">
                                     <HiStar className='text-[#e2ca42] w-[18px] h-5' />
@@ -54,7 +54,7 @@ const Testimonial = () => {
                             <img src={patientAvatar} alt="" />
                             <div>
                                 <h4 className='text-[18px] leading-[30px] font-semibold text-black'>
-                                    Muhibar Rahman
+                                    Deshan Bandara
                                 </h4>
                                 <div className="flex items-center gap-[2px]">
                                     <HiStar className='text-[#e2ca42] w-[18px] h-5' />
@@ -77,7 +77,7 @@ const Testimonial = () => {
                             <img src={patientAvatar} alt="" />
                             <div>
                                 <h4 className='text-[18px] leading-[30px] font-semibold text-black'>
-                                    Muhibar Rahman
+                                    Deshan Bandara
                                 </h4>
                                 <div className="flex items-center gap-[2px]">
                                     <HiStar className='text-[#e2ca42] w-[18px] h-5' />
@@ -100,7 +100,7 @@ const Testimonial = () => {
                             <img src={patientAvatar} alt="" />
                             <div>
                                 <h4 className='text-[18px] leading-[30px] font-semibold text-black'>
-                                    Muhibar Rahman
+                                    Deshan Bandara
                                 </h4>
                                 <div className="flex items-center gap-[2px]">
                                     <HiStar className='text-[#e2ca42] w-[18px] h-5' />
@@ -123,7 +123,7 @@ const Testimonial = () => {
                             <img src={patientAvatar} alt="" />
                             <div>
                                 <h4 className='text-[18px] leading-[30px] font-semibold text-black'>
-                                    Muhibar Rahman
+                                    Deshan Bandara
                                 </h4>
                                 <div className="flex items-center gap-[2px]">
                                     <HiStar className='text-[#e2ca42] w-[18px] h-5' />
