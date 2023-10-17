@@ -14,7 +14,7 @@ const navLinks = [
     display: 'Doctors'
   },
   {
-    path: '/service',
+    path: '/services',
     display: 'Services'
   },
   {
