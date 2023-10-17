@@ -1,6 +1,8 @@
 import React, {useState, userState} from 'react'
 import doctorImg from '../../assets/images/doctor-img02.png'
 import starIcon from '../../assets/images/Star.png'
+import DoctorAbout from './DoctorAbout'
+import Feedback from './Feedback'
 
 const DoctorDetails = () => {
 
@@ -16,7 +18,7 @@ const DoctorDetails = () => {
             </figure>
 
             <div>
-              <span className='bg-[#CCF0F3] text-[#438fa4] py-1 px-6 lg:py-2 lg:px-6 text-[12px] leading-4
+              <span className='bg-[#CCF0F3] text-[#246BCE] py-1 px-6 lg:py-2 lg:px-6 text-[12px] leading-4
               lg:text-[16px] lg:leading-7 font-semibold rounded'>Surgeon</span>
               <h3 className='text-black text-[22px] leading-9 mt-3 font-bold'>
                 Deshan Bandara
@@ -52,6 +54,8 @@ const DoctorDetails = () => {
           </div>
 
           <div className="mt-[50px]">
+            { tab==='about' && <DoctorAbout/>}
+            { tab === 'feedback' && <Feedback />}
             
           </div>
 
