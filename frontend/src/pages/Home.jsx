@@ -268,7 +268,7 @@ const Home = () => {
       </section>
     {/* ============== Our great doctors end ============== */}
 
-    {/* ============== faq section  ============== */}
+    {/* ============== faq section  ================ */}
     <br /><br /><br />
       <section>
         <div className="container">
