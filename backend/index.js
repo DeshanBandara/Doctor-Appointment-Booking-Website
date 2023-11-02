@@ -14,9 +14,15 @@ const corsOptions = {
 }
 
 app.get('/',(req,res)=>{
-    res.send('Api is Working')
+    res.send('Api is Working') //will show the output in the browser
 })
 
+
+//Middlware
+app.use(express.json());
+app.use(cookieParser());
+app.use(cors(corsOptions));
+
 app.listen(port, () => {
-    console.log("Server is running on port " + port);
+    console.log("Server is running on port " + port); //show the output in command line inerface 
 })
