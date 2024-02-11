@@ -1,7 +1,6 @@
 {
   "name": "madicare-booking",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -23,5 +22,7 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
